@@ -1,0 +1,107 @@
+body {
+  min-height: 1000px;
+}
+
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: #999;
+  color: #ddd;
+}
+
+.pretty {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2em;
+  border-right-color: #000000;
+  border-left-color: lightblue;
+  border-top-color: salmon;
+  border-bottom-color: #ddd;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2em;
+  border-top-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #ffaa0f;
+}
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #ffb01f;
+}
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #ffb52e;
+}
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #ffbb3d;
+}
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #ffc04d;
+}
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #ffc55c;
+}
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #ffcb6b;
+}
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #ffd07a;
+}
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #ffd68a;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #ffdb99;
+}
+
+.socials {
+  font-size: 2em;
+  font-family: arial;
+  font-weight: bold;
+}
+.socials .twitter {
+  color: lightblue;
+}
+.socials .instagram {
+  color: salmon;
+}
+.socials .github {
+  color: black;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,79 @@
+// base
+$warna-dasar: salmon;
+h1 {
+    color: $warna-dasar;
+    font-family: arial;
+    font-size: 3em;
+    text-align: center;
+}
+
+// build-in modules: color
+// adjust-color($alpha: null)
+// buka adobe.com ya
+
+// h1 {
+//     color: adjust-color($color: $warna-dasar, $blue: 100, $red:-50);
+// }
+
+// adjust-hue ($color, #degree);
+// warna sesuai derajat
+
+// h1 {
+//     color: adjust-hue($color: $warna-dasar, $degrees: -30deg);
+// }
+
+// comploment color: warna yang bersebrangan
+// buka color di canva
+// h1 {
+//     color: complement($warna-dasar);
+// }
+
+// darken($color, $amount)
+// h1 {
+//     color: darken($color: $warna-dasar, $amount: 20%);
+// }
+
+// lighten($color, $amount)
+// sama dgn darken hanya saja lighten semakin cerajh warnanya
+// h1 {
+//     color: lighten($color: $warna-dasar, $amount: 10%);
+// }
+
+// saturate($color, $amount)
+// menambahkan warna
+// h1 {
+//     color: saturate($color: $warna-dasar, $amount: 50%);
+// }
+
+// desaturate($color, $amount)
+// desaturate semakin tinggi semakin hilang warnanya
+// h1 {
+//     color: desaturate($color: $warna-dasar, $amount: 50%);
+// }
+
+// grayscale ($color)
+// artinya sama saja dengan memberikan desaturate 100%
+// h1 {
+//     color: grayscale($color: $warna-dasar);
+// }
+
+// mix($color1, $color2, $weight: 50%)
+// mencampurkan warna
+// default nya 50% 50% namun, apabila weight diubah menjadi 30%
+// maka 30% tersebut adalah milik color1, color 2 70%
+// h1 {
+//     color: mix($color1: $warna-dasar, $color2: blue, $weight: 80%);
+// }
+
+// fade-in($color, $amount)
+// yang awalnya transparan jadi solid
+// h1 {
+//     color: fade-in($color: $warna-dasar, $amount: 0.5);
+// }
+
+// fade-out($color, $amount)
+// yang awalnya solid jadi transparan
+h1 {
+    color: fade-out($color: $warna-dasar, $amount: 0.4);
+}
+

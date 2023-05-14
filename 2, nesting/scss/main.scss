@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+}
+
+.main {
+    background-color: lightblue;
+
+    .main-heading {
+        font-size: 2em;
+    }
+
+    .main-paragraph {
+        font-size: 1.4em;
+    }
+
+// &
+// parent selector  
+
+    &:hover {
+        background-color: salmon;
+    }
+}
+
+.main, footer {
+    h1, p {
+        letter-spacing: 1px;
+    }
+}
+
+// parent selector & juga berfungsi untuk menyamakan nama selektor menjadi sama dengan yg diatas
+
+.footer {
+    & &-main {
+        font-size: 2em;
+    }
+
+    &-paragraph {
+        font-size: 1.4em;
+    }
+}
+
+

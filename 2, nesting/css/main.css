@@ -1,0 +1,27 @@
+body {
+  background-color: lightblue;
+}
+
+.main {
+  background-color: lightblue;
+}
+.main .main-heading {
+  font-size: 2em;
+}
+.main .main-paragraph {
+  font-size: 1.4em;
+}
+.main:hover {
+  background-color: salmon;
+}
+
+.main h1, .main p, footer h1, footer p {
+  letter-spacing: 1px;
+}
+
+.footer .footer-main {
+  font-size: 2em;
+}
+.footer-paragraph {
+  font-size: 1.4em;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,54 @@
+// scss variables
+
+// :root {
+//     --primary-color: #f4f1de;
+//     --secondary-color: #f2cc8f;
+//     --text-color: #e07a5f;
+// }
+
+// body {
+//     background-color: var(--primary-color);
+// }
+
+// h1 {
+//     color: var(--text-color);
+// }
+
+// p {
+//     color: var(--text-color);
+// }
+
+// sass variables
+
+// sass menganggap - dan _ adalah variable yg sama beda dengan php
+
+$secondary-color: #f2cc8f;
+$text-color: #e07a5f;
+
+body {
+    $primary-color: #f4f1de !global;
+    // agar variable milik body bisa diakses oleh tag diluar body maka
+    // tambahkan tag !global, bahkan variabel !global lebih tinggi dripada variable yg diatas
+    // mksdnya adalah ketika ada 2 variable dengan nama yg sama maka variable lokal akan ditimpa oleh variable !global
+    background-color: $primary-color;
+}
+
+h1 { 
+    color: $text-color;
+}
+
+
+p {
+    color: $primary-color;
+}
+
+// MAP 
+$alert: (
+    'danger': red,
+    'success': green,
+    'warning': orange,
+);
+
+h1 {
+    background-color: map-get($alert, 'success' );
+}

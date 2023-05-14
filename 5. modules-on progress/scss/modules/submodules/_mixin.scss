@@ -1,0 +1,22 @@
+// kenapa memakai _ ?
+// karena file ini bukan file utama dari file scss
+// jadi file yang dinamakan _ didepannya tidak akan melalui proses compilasi
+
+@mixin inline-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+    }
+    a {
+        text-decoration: none
+    }
+}
+
+@mixin flex-box($direction) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: $direction;
+}
