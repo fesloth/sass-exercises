@@ -1,10 +1,10 @@
-@use 'submodules/mixin';
+@use 'mixin';
 
-.header ul {
+.footer ul {
     @include mixin.inline-list();
     li {
-        background-color: black;
-        padding: 0.7em;
+        padding: 0.4em;
+        background-color: salmon;
         a {
             color: white;
         }

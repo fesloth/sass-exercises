@@ -1,4 +1,4 @@
-@use 'submodules/mixin';
+@use 'mixin';
 
 .container {
     @include mixin.flex-box(row-reverse);
